@@ -1,0 +1,39 @@
+{
+  "lang":"en",
+  "name":"pipeline",
+  "version":"0.0.0",
+  "spacy_version":">=3.5.0,<3.6.0",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_git_version":"dec81508d",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":null,
+    "mode":"default"
+  },
+  "labels":{
+    "textcat_multilabel":[
+      "toxic",
+      "severe_toxic",
+      "obscene",
+      "threat",
+      "insult",
+      "identity_hate",
+      "non_toxic"
+    ]
+  },
+  "pipeline":[
+    "textcat_multilabel"
+  ],
+  "components":[
+    "textcat_multilabel"
+  ],
+  "disabled":[
+
+  ]
+}
